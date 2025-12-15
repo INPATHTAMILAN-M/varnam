@@ -1,5 +1,5 @@
 import django_filters
-from varnam.models.ticket_pass import Pass
+from events.models import Pass
 
 
 class PassFilter(django_filters.FilterSet):

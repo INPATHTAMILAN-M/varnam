@@ -1,5 +1,5 @@
 import django_filters
-from varnam.models.department import Department
+from events.models import Department
 
 
 class DepartmentFilter(django_filters.FilterSet):
